@@ -2,6 +2,7 @@
   <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <link rel="stylesheet" href="/style.css">
+
 <script src="/script.js"></script>
 </head>
 <body>
@@ -26,20 +27,19 @@
 <div class='col-xs-3'></div><div class='time_clock'>
 <div class='row text-center'><div id='timer_type'>Session</div>
   <div class="row text-center"><div class="col-xs-2"></div>
-    <button class="btn" id="start_btn" onclick="countdown()">Start</button>
+    <button class="btn" id="start_btn">Start</button>
     
     <button class="btn" onclick="reset_timer()">Reset</button>
 <div class="col-xs-2"></div>
-  <div class='row text-center'><div id='time_clock'><div id="timer_display">
-    <span id="timer_minute_display"></span>
-    <span id="colon">:</span>
-    <span id="timer_second_display"></span>
-    </div>
+  <div class='row text-center'><div id="timer_display">
+
+    
 </div><div class='col-xs-3'></div>
   </div>
   <canvas id ="my_canvas">
   </canvas>
   </body>
+
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
